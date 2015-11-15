@@ -1,19 +1,14 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>7</version>
-  </parent>
 
-  <groupId>net.alchim31.maven</groupId>
-  <artifactId>scala-archetype-simple</artifactId>
+  <groupId>com.github.rawtoast</groupId>
+  <artifactId>scala-archetype-java8</artifactId>
   <version>1.7-SNAPSHOT</version>
-  <packaging>maven-archetype</packaging>
+  <packaging>jar</packaging>
 
-  <name>Archetype - scala-archetype-simple</name>
-  <url>http://github.com/davidB/${project.artifactId}</url>
+  <name>Archetype - scala-archetype-java8</name>
+  <url>http://github.com/rawtoast/${project.artifactId}</url>
   <inceptionYear>2012</inceptionYear>
   <description>The maven-scala-plugin is used for compiling/testing/running/documenting scala code in maven.</description>
 
@@ -26,30 +21,15 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/davidB/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:davidB/${project.artifactId}.git</developerConnection>
-    <url>http://github.com/davidB/${project.artifactId}/</url>
+    <connection>scm:git:git://github.com/rawtoast/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:rawtoast/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/rawtoast/${project.artifactId}/</url>
   </scm>
 
   <issueManagement>
     <system>github</system>
-    <url>http://github.com/davidB/${project.artifactId}/issues#issue/</url>
+    <url>http://github.com/rawtoast/${project.artifactId}/issues#issue/</url>
   </issueManagement>
-
-  <mailingLists>
-    <mailingList>
-      <name>maven-and-scala</name>
-      <archive>http://groups.google.com/group/maven-and-scala</archive>
-      <post>http://groups.google.com/group/maven-and-scala</post>
-    </mailingList>
-  </mailingLists>
-
-  <developers>
-    <developer>
-      <name>David Bernard</name>
-      <timezone>+1</timezone>
-    </developer>
-  </developers>
 
   <properties>
     <maven.test.skip>true</maven.test.skip>

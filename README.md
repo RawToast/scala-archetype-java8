@@ -7,7 +7,7 @@
 * non interactive / batch (change info in the last line) :
 
         mvn archetype:generate -B \
-          -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.5 \
+          -DarchetypeGroupId=com.github.rawtoast -DarchetypeArtifactId=scala-archetype-java8 -DarchetypeVersion=1.5 \
           -DgroupId=com.company -DartifactId=project -Dversion=0.1-SNAPSHOT -Dpackage=com.company
 
 * example compile/run (run 'mvn scala:help' for full command list) :
@@ -17,6 +17,10 @@
         mvn scala:run -DmainClass=com.company.App
 
 # Changes:
+
+## 1.7
+
+* Updated for Java 8 support.
 
 ## 1.6
 
