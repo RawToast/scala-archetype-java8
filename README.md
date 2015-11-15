@@ -1,3 +1,7 @@
+# scala-archetype-java8
+
+Scala archetype based on davidB/scala-archetype-simple
+
 # usage from cli :
 
 * interactive Mode (select scala-archetype-simple and response to questions) :
